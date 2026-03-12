@@ -1,7 +1,7 @@
 // Rock, Paper, Scissors Game
 
 // 1. Get the user's choice
-let userChoice = prompt("Rock, paper, or scissors?").toLowerCase();
+let userChoice = prompt("Do you change Rock, paper, or scissors?").toLowerCase();
 
 // Validate user input
 if (userChoice !== "rock" && userChoice !== "paper" && userChoice !== "scissors") {
