@@ -23,7 +23,6 @@ if (userChoice !== "rock" && userChoice !== "paper" && userChoice !== "scissors"
 
     // 3. Determine the winner
     let result;
-
     if (userChoice === computerChoice) {
         result = "It's a tie!";
     } else if (

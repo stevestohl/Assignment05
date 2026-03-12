@@ -16,8 +16,7 @@ function calculate(x, y, operation) {
             result = x / y;
             break;
         default:
-            result = null; // signals invalid operation
-    }
+            result = null; 
     return result;
 }
 
